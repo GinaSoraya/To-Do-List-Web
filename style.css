@@ -1,0 +1,62 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #8AB2A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #3E3F5B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 40px 100px;
+}
+
+.box .container input,
+.box .container button {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.box .container button {
+    background-color: #3E3F5B;
+    color: white;
+}
+
+.box ul {
+    padding: 0;
+}
+
+.box ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.box ul li p {
+    width: 100%;
+}
+
+.box ul li button {
+    background-color: #3E3F5B;
+    color: white;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}

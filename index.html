@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
 </head>
 <body>
-    
+    <div class="box">
+        <h1>To Do List</h1>
+        <div class="container">
+            <input id ="taskInput" type="text">
+            <button onclick="addTask()">Tambah</button>
+        </div>
+        <ul id = "taskList">
+            <li>
+                <p>Makan</p>
+                <button>Edit</button>
+                <button>Hapus</button>
+            </li>
+            <li>
+                <p>Minum</p>
+                <button>Edit</button>
+                <button>Hapus</button>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
